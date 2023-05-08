@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.books {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.bookCard {
+  height: 50px;
+  background-color: #d2d2d2;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  word-spacing: 1px;
+  flex: 1;
+}
+
+.author {
+flex: 1;
+}
